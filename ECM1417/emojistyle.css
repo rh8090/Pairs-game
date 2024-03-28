@@ -1,0 +1,142 @@
+*
+
+body {
+  background: #f7f8f9;
+}
+
+.canvas {
+  position: relative;
+  margin: auto;
+  margin-top: 5%;
+  width: 600px;
+  height: 420px;
+  display: block;
+  background: none;
+}
+
+
+.face {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  height: 67%;
+  width: 50%;
+  background-color: red; /*var(--bg-color, white);*/
+  border-radius: 50%;
+  border: solid 2px;
+  z-index: 1;
+}
+
+
+.mouth {
+  position: absolute;
+  top: 190px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 50px;
+  height: 25px;
+  margin: 0 auto;
+  background: black;
+  border-radius: 0 0 70px 70px;
+  border: 4px solid #995710;
+  border-top: 0;
+  -webkit-clip-path: inset(30% 0 0 0);
+  clip-path: inset(30% 0 0 0);
+}
+
+.line{
+  position: absolute;
+  top: 190px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 50%;
+  height: 10px;
+  margin: 0 auto;
+  border-radius: 0 0 70px 70px;
+  overflow: hidden;
+  background: black;
+  }
+.smile{
+  position: absolute;
+  top: 190px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 50px;
+  height: 25px;
+  margin: 0 auto;
+  background: transparent;
+  border-radius: 0 0 70px 70px;
+  border: 4px solid #995710;
+  border-top: 0;
+  -webkit-clip-path: inset(30% 0 0 0);
+  clip-path: inset(30% 0 0 0);
+}
+
+.left-eye {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  height: 55px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.right-eye {
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  height: 55px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 2;
+}
+.small-left{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 25%;
+  left: 35%;
+  z-index: 1;
+  border-radius: 50%;
+  background: black;
+}
+
+.small-right{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 25%;
+  left: 55%;
+  z-index: 1;
+  border-radius: 50%;
+  background: black;
+}
+
+
+.heart-right {
+  position: absolute;
+  display:inline-block;
+  top: 25%;
+  left: 55%;
+  width: 60px; 
+  aspect-ratio: 1;
+  border-image: radial-gradient(red 69%,#0000 70%) 84.5% fill/100%;
+  clip-path: polygon(-41% 0,50% 91%, 141% 0);
+}
+
+.heart-left {
+  position: absolute;
+  display:inline-block;
+  top: 25%;
+  left: 25%;
+  width: 60px; 
+  aspect-ratio: 1;
+  border-image: radial-gradient(red 69%,#0000 70%) 84.5% fill/100%;
+  clip-path: polygon(-41% 0,50% 91%, 141% 0);
+}
